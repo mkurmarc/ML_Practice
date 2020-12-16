@@ -1,0 +1,83 @@
+race_data_id,final_place,PP,Horse,Jockey,Trainer,Odds,Win,Place,Show,year,race,highTemp,lowTemp,precipitation,weather,trackCondition,attendance
+261,1,7,Justify,Bob Baffert,Mike Smith,3.5,7.8,6,4.4,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+262,2,6,Good Magic,Chad Brown,Jose Ortiz,10,0,9.2,6.6,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+263,3,5,Audible,Todd Pletcher,Javier Castellano,8,0,0,5.8,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+264,4,15,Instilled Regard,Jerry Hollendorfer,Drayden Van Dyke,86,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+265,5,10,My Boy Jack,Keith Desormeaux,Kent Desormeaux,7,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+266,6,13,Bravazo,D. Wayne Lukas,Luis Contreras,67,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+267,7,9,Hofburg,William Mott,Irad Ortiz Jr.,28,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+268,8,8,Lone Sailor,Thomas Amoss,James Graham,25,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+269,9,18,Vino Rosso,Todd Pletcher,John Velazquez,15,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+270,10,17,Solomini,Bob Baffert,Flabvien Prat,38,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+271,11,1,Firenze Fire,Jason Servis,Paco Lopez,60,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+272,12,11,Bolt d'Oro,Mike Ruis,Victor Ezpinoza,9,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+273,13,4,Flameaway,Mark Casse,Jose Lezcano,38,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+274,14,12,Enticed,Kiaran McLaughlin,Junior Alvarado,51,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+275,15,3,Promises Fulfilled,Dale Romans,Corey Lanerie,50,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+276,16,2,Free Drop Billy,Dale Romans,Robby Albarado,46,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+277,17,19,Noble Indy,Todd Pletcher,Florent Goreoux,31,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+278,18,20,Combatant,Steve Asmussen,Ricardo Santana Jr.,71,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+279,19,16,Magnum Moon,Todd Pletcher,Luis Saez,14,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+280,20,14,Mendelssohn,Aidan O'Brien,Ryan Moore,7,0,0,0,2018,Kentucky Derby,70,61,3.15,Showery,Sloppy,157813
+281,1,20,Country House,William I. Mott,Flavien Prat,66,132.4,56.6,24.6,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+282,2,13,Code of Honor,Claude R. McGaughey III,John Velazquez,16,0,15.2,9.8,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+283,3,8,Tacitus,William I. Mott,Jose Ortiz,11,0,0,5.6,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+284,4,5,Improbable,Bob Baffert,Irad Ortiz Jr.,7,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+285,5,16,Game Winner,Bob Baffert,Joel Rosario,6,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+286,6,15,Master Fencer (JPN),Tsunoda K,Julien Leparoux,51,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+287,7,1,War of Will,Mark E. Casse,Tyler Gaffalione,21,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+288,8,9,Plus Que Parfait,Brendan P. Walsh,Ricardo Santana Jr.,31,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+289,9,14,Win Win Win,Michael J. Trombetta,Julian Pimentel,16,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+290,10,10,Cutting Humor,Todd A. Pletcher,Corey J Lanerie,31,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+291,11,3,By My Standards,W. Bret Calhoun,Gabriel Saez,21,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+292,12,6,Vekoma,George Weaver,Javier Castellano,21,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+293,13,21,Bodepress,Gustavo Delgado,Chris Landeros,21,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+294,14,2,Tax,Danny Gargan,Junior Alvarado,21,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+295,15,17,Roadster,Bob Baffert,Florent Geroux,7,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+296,16,18,Long Range Toddy,Steven M. Asmussen,Jon Court,31,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+297,17,7,Maximum Security,Jason Servis,Luis Saez,11,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+298,18,19,Spinoff,Todd Pletcher,Manny Franco,31,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+299,19,4,Gray Magician,Peter Miller,Drayden Van Dyke,51,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+300,20,11,Haikal,Kiaran P. McLaughlin,Rajiv Maragh,,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+301,21,12,Omaha Beach,Richard E. Mandella,Mike Smith,,0,0,0,2019,Kentucky Derby,71,58,0.34,Showery,Sloppy,150729
+445,1,1,Justify,Mike Smith,Bob Baffert,1.8,3.6,3.5,2.8,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+446,2,6,Gronkowski,Jose Ortiz,Chad Brown,23,0,13.8,7,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+447,3,4,Hofburg,Irad Ortiz Jr.,Bill Mott,6,0,0,3.7,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+448,4,8,Vino Rosso,John Velazquez,Todd Pletcher,8,0,0,0,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+449,5,7,Tenfold,Ricardo Santana Jr.,Steve Asmussen,11,0,0,0,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+450,6,3,Bravazo,Luis Saez,D. Wayne Lukas,9,0,0,0,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+451,7,2,Free Drop Billy,Robby Albarado,Dale Romans,31,0,0,0,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+452,8,5,Restoring Hope,Florent Geroux,Bob Baffert,35,0,0,0,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+453,9,10,Blended Citizen,Kyle Frey,Doug OâNeill,23,0,0,0,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+454,10,9,Noble Indy,Javier Castellano,Todd Pletcher,24,0,0,0,2018,Belmont Stakes,79,57.9,0,Clear,Fast,90327
+455,1,7,Sir Winston,Mark Casse,Joel Rosario,11,22.4,8.8,6.1,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+456,2,10,Tacitus,Bill Mott,Jose Ortiz,2.8,0,3.9,3.2,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+457,3,1,Joevia,Gregg Sacco,Jose Lezcano,22,0,0,8.7,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+458,4,4,Tax,Danny Gargan,Irad Ortiz Jr.,13,0,0,0,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+459,5,3,Master Fencer,Koichi Tsunoda,Julien Leparoux,14,0,0,0,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+460,6,6,Spinoff,Todd Pletcher,Javier Castellano,11,0,0,0,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+461,7,2,Everfast,Dale Romans,Luis Saez,18,0,0,0,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+462,8,8,Intrepid Heart,Todd Pletcher,John Velazquez,8,0,0,0,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+463,9,9,War of Will,Mark Casse,Tyler Gaffalione,4.5,0,0,0,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+464,10,5,Bourbon War,Mark Hennig,Mike Smith,11,0,0,0,2019,Belmont Stakes,78.1,60.1,0,Clear,Fast,56217
+607,1,7,Justify,Mike Smith,Bob Baffert,1.5,2.8,2.8,2.6,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+608,2,8,Bravazo,Luis Contreras,D. Wayne Lukas,21,0,7.6,6.8,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+609,3,6,Tenfold,Ricardo Santana Jr.,Steve Asmussen,21,0,0,6.8,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+610,4,5,Good Magic,Jose Ortiz,Chad Brown,4,0,0,0,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+611,5,2,Lone Sailor,Irad Ortiz Jr.,Thomas Amoss,16,0,0,0,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+612,6,3,Sporting Chance,Luis Contreras,D. Wayne Lukas,31,0,0,0,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+613,7,4,Diamond King,Javier Castellano,John Servis,31,0,0,0,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+614,8,1,Quip,Florent Geroux,Rodolphe Brisset,13,0,0,0,2018,Preakness,64,52,0.95,Foggy,Sloppy,134487
+615,1,1,War of Will,Mark Casse,Tyler Gaffalione,7,14.2,7.4,5.4,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+616,2,10,Everfast,Dale Romans,Joel Rosario,26,0,32,14.4,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+617,3,5,Owendale,Brad Cox,Florent Geroux,9,0,0,6,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+618,4,3,Warriorâs Charge,Brad Cox,Javier Castellano,14,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+619,5,11,Laughing Fox,Steve Asmussen,Ricardo Santana Jr.,21,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+620,6,4,Improbable,Bob Baffert,Mike Smith,3.5,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+621,7,13,Win Win Win,Michael Trombetta,Julian Pimentel,14,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+622,8,2,Bourbon War,Mark Hennig,Irad Ortiz Jr.,13,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+623,9,8,Signalman,Kenny McPeek,Brian Hernandez Jr.,22,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+624,10,12,Anothertwistafate,Blaine Wright,Jose Ortiz,15,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+625,11,7,Alwaysmining,Kelly Rubley,Daniel Centeno,8,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+626,12,6,Market King,D. Wayne Lukas,Jon Court,31,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
+627,13,9,Bodexpress,Gustavo Delgado,John Velazquez,20,0,0,0,2019,Preakness,78.1,70,0,Cloudy,Fast,131256
