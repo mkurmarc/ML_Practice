@@ -7,42 +7,37 @@ import plotly.graph_objects as go
 import plotly.express as px
 from sklearn.model_selection import train_test_split
 from sklearn import linear_model, tree, neighbors
+from sklearn.metrics import mean_squared_error, r2_score
 import pandas as pd
 
+df_all = pd.read_csv('data/Merged_RaceData_AllYears.csv')
+raw = df_all
 
-# creating the training and test data sets
-df = pd.read_csv('data/Merged_RaceData_AllYears.csv')
-df_1 = pd.read_csv('data/Merged_RaceData_2005-2017.csv')  # training data
-df_2 = pd.read_csv('data/Merged_RaceData_2018-2019.csv')  # test data
+df_all = raw.fillna(0)
+df_all = df_all.drop(['attendance', 'trackCondition', 'race_data_id',
+                      'PP', 'Horse', 'Jockey', 'Trainer', 'Win', 'Place',
+                      'Show', 'weather', 'year', 'race'], axis=1)
 
-X = df[['Odds', 'final_place']]
-X = X.fillna(0)
-X.values.reshape(-1, 1)
+# X = df_all['highTemp']
+X = df_all[['final_place', 'Odds', 'highTemp', 'lowTemp', 'precipitation']]
 
-# X_train  is a 2d array with [Odds, final_place] from the training data
-X_train = df_1[['Odds', 'final_place']]
-X_train = X_train.fillna(0)
-X_train.values.reshape(-1, 1)
+X_train, X_test, Y_train, Y_test = train_test_split(X, X.final_place, test_size=0.2) # 20% to test set
+print(X_train)
+print(Y_train)
+# Y_pred = model.predict(X_test)  # use test data and input into model to predict, assigns to Y_pred
+# Y_pred = np.ndarray.round(Y_pred, decimals=0)
+# Y_pred is the predicted value, while Y_test is the actual value
 
-# y_train  is a list of the final_place, 1st, 2nd, 3rd, etc from the training data
-y_train = df_1['final_place']
-# final_place_1 = df_1['final_place'].max()
-# y_train = list(range(0, final_place_1 + 1))
+## print models performance
+# print('Coefficients: ', model.coef_)
+# print('Intercept: ', model.intercept_)
+# print('Mean squared error (MSE): %.2f'
+#       % mean_squared_error(Y_test, Y_pred))
+# print('Coefficient of determination (R^2): %.2f'
+#       % r2_score(Y_test, Y_pred))
 
-# X_test  is a 2d array with [Odds, final_place] from the testing data
-X_test = df_2[['Odds', 'final_place']]
-X_test = X_test.fillna(0)
-X_test.values.reshape(-1, 1)
-
-# y_test  is a list of the final_place, 1st, 2nd, 3rd, etc from the testing data
-y_test = df_2['final_place']
-# # print(X.Odds.unique())
-# print("X: " + str(X.size) + '\n' +
-#       "X_train: " + str(X_train.size) + '\n' +
-#       "y_train: " + str(y_train.size) + '\n' +
-#       "X_test: " + str(X_test.size) + '\n' +
-#       "y_test: " + str(y_test.size) + '\n')
-# # print(y_train)
+# graph scatter plot
+# sns.scatterplot(x=Y_test, y=Y_pred, alpha=0.5)
 
 models = {'Regression': linear_model.LinearRegression,
           'Decision Tree': tree.DecisionTreeRegressor,
@@ -67,18 +62,18 @@ app.layout = html.Div([
     [Input('model-name', "value")])
 def train_and_display(name):
     model = models[name]()
-    model.fit(X_train, y_train)
+    model.fit(X_train, Y_train)
 
-    x_range = np.linspace(X.min(), X.max(), 100)
-    y_range = model.predict(x_range.reshape(-1, 1))
+    # x_range = np.linspace(X.min(), X.max(), 100)
+    # y_range = model.predict(x_range.reshape(-1, 1))
 
     fig = go.Figure([
-        go.Scatter(x=X_train.squeeze(), y=y_train,
+        go.Scatter(x=X_train.squeeze(), y=Y_train,
                    name='train', mode='markers'),
-        go.Scatter(x=X_test.squeeze(), y=y_test,
-                   name='test', mode='markers'),
-        go.Scatter(x=x_range, y=y_range,
-                   name='prediction')
+        go.Scatter(x=X_test.squeeze(), y=Y_test,
+                   name='test', mode='markers')
+        # go.Scatter(x=x_range, y=y_range,
+        #            name='prediction')
     ])
 
     return fig
