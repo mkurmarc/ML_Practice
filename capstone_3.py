@@ -15,7 +15,7 @@ df_all = df_all.drop(['trackCondition', 'race_data_id',
                       'PP', 'Horse', 'Jockey', 'Trainer', 'Win', 'Place',
                       'Show', 'weather', 'year', 'race'], axis=1)
 
-X = df_all[['Odds', 'highTemp', 'lowTemp', 'precipitation', 'attendance']]
+X = df_all[['Odds', 'highTemp', 'lowTemp', 'precipitation']]
 Y = df_all['final_place']
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2) # 20% to test set
